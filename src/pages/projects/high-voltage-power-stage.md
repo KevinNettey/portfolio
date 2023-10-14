@@ -1,19 +1,10 @@
 ---
-title: 'High Voltage Power Stage'
-pubDate: 2023-10-12
-description: 'The High Voltage Power Stage Project.'
+layout: ../../layouts/ProjectsLayout.astro
+title: 'High Voltage Power Stage Project'
+description: 'The High Voltage Power Stage Project was done within the Miami University Power Electronics Laboratory, and features a ... that serves to ... For this project, I made over 15 different 3D models, some of which can be seen below. The models varied greatly in complexity, and all of these parts serve one purpose or another in the very complex final assembly.'
 author: 'Kevin Nettey'
-image:
-    url: 'https://docs.astro.build/assets/full-logo-light.png'
-    alt: 'The full Astro logo.'
-tags: ["3D modeling", "Autodesk Fusion 360", "Power Electronics Lab"]
-
+tags: ["3D modeling", "Power Electronics Lab"]
 ---
-# My First Blog Post
-
-Published on: 2023-10-12
-
-The High Voltage Power Stage Project was done within the Miami University Power Electronics Laboratory, and features a ... that serves to ... For this project, I made over 15 different 3D models, some of which can be seen below. The models varied greatly in complexity, and all of these parts serve one purpose or another in the very complex final assembly.
 
 ## Smaller Models
 

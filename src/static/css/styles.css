@@ -31,7 +31,7 @@ html {
 body {
     margin: 0 auto;
     width: 100%;
-    max-width: 80ch;
+    max-width: 100ch;
     padding: 1rem;
     line-height: 1.5;
 }
@@ -76,8 +76,26 @@ body {
 * {
     box-sizing: border-box;
 }
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tags a {
+    color: #00539F;
+}
+.tag {
+    margin: 0.25em;
+    border: dotted 1px #a1a1a1;
+    border-radius: .5em;
+    padding: .5em 1em;
+    font-size: 1.15em;
+    background-color: #F8FCFD;
+}
 
 /* nav styles */
+.nav-bar {
+    text-align: center;
+}
 
 .hamburger {
     padding-right: 20px;
@@ -121,7 +139,6 @@ body {
 
 @media screen and (min-width: 636px) {
     .nav-links {
-      margin-left: 5em;
       display: block;
       position: static;
       width: auto;
