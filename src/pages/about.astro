@@ -1,29 +1,11 @@
 ---
 const pageTitle = "About Kevin Nettey";
 import '../static/css/styles.css';
-const identity = {
-    firstName: "Kevin",
-    lastName: "Nettey",
-    major: "Mechanical Engineering"
-}
+import BaseLayout from '../layouts/BaseLayout.astro';
 
 const top_skills = ["Autodesk Inventor", "Autodesk Fusion 360", "Altium Designer", "Geometric Dimensioning & Tolerancing", "MATLAB"]
 ---
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} >
-    <title>{pageTitle}</title>
-  </head>
-  <body>
-    <a href="/">Home</a>
-    <a href="/about/">About</a>
-    <a href="/projects/">Projects</a>
-
-    <h1>{pageTitle}</h1>
+<BaseLayout pageTitle={pageTitle}>
     <p>My name is Kevin Nettey, and I am an undergraduate Mechanical Engineering major at Miami University, Ohio. While majority of my experience in Mechanical Engineering pertains to software and 3D modeling, I have some experience working on hardware as well. My ultimate goal is to develop sustainable public transportation, and to this end, I work on various projects that improve the lives of other while improving my own skills.</p>
-    <p>My most well-developed skills are: {top_skills.map((skill) => <li>{skill}</li>)}</p>
-  </body>
-</html>
+    <p>My most well-developed skills are: {top_skills.map((skill) => <li class="skill">{skill}</li>)}</p>
+</BaseLayout>

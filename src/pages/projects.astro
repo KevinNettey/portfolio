@@ -1,23 +1,9 @@
 ---
 const pageTitle = "Projects";
 import '../static/css/styles.css';
+import BaseLayout from '../layouts/BaseLayout.astro';
 ---
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} >
-    <title>Projects</title>
-  </head>
-  <body>
-    <a href="/">Home</a>
-    <a href="/about/">About</a>
-    <a href="/projects/">Projects</a>
-
-    <h1>{pageTitle}</h1>
-    <a href="/projects/high-voltage-power-stage"><h2>High Voltage Power Stage Project</h2></a>
-    <p>The High Voltage Power Stage Project was done within the Miami University Power Electronics Laboratory, and features a ... that serves to ... For this project, I made over 15 different 3D models, some of which can be seen below. The models varied greatly in complexity, and all of these parts serve one purpose or another in the very complex final assembly.</p>
-
-  </body>
-</html>
+<BaseLayout pageTitle={pageTitle}>
+  <a href="/projects/high-voltage-power-stage"><h2>High Voltage Power Stage Project</h2></a>
+  <p>The High Voltage Power Stage Project was done within the Miami University Power Electronics Laboratory, and features a ... that serves to ... For this project, I made over 15 different 3D models, some of which can be seen below. The models varied greatly in complexity, and all of these parts serve one purpose or another in the very complex final assembly.</p>
+</BaseLayout>

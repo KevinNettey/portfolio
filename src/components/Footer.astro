@@ -1,0 +1,22 @@
+---
+const platform = "LinkedIn"
+const username = "kevin-nettey"
+---
+
+<footer>
+    <p>See everything that I have worked on <a href={`https://www.${platform}.com/in/${username}`}>{platform}</a>!</p>
+</footer>
+
+<style>
+    a {
+        padding: 0.25rem 0.5rem;
+        color: white;
+        background-color: #0a66c2;
+        text-decoration: none;
+    }
+    footer {
+        display: flex;
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+</style>
