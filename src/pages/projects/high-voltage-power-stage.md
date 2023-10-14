@@ -12,18 +12,19 @@ tags: ["3D modeling", "Autodesk Fusion 360", "Power Electronics Lab"]
 
 Published on: 2023-10-12
 
-The High Voltage Power Stage Project features a ... that serves to ... For this project, I made various 3D models as seen below.
+The High Voltage Power Stage Project was done within the Miami University Power Electronics Laboratory, and features a ... that serves to ... For this project, I made over 15 different 3D models, some of which can be seen below. The models varied greatly in complexity, and all of these parts serve one purpose or another in the very complex final assembly.
 
-1. **Smaller Models**: These are a few simple models that were used in larger assemblies that display my skill on working on smaller parts.
-![Simple Busbar](../../static/img/s-busbar.png)
-![Busbar at 45 degrees](../../static/img/45-busbar.png)
-![NTE1v150 Varistor](../../static/img/nte1v150.png)
-![Transformer](../../static/img/transformer.png)
+## Smaller Models
 
-2. **Making Pages**: I then learned how to make pages by creating new `.astro` files and placing them in the `src/pages/` folder.
+**Busbars, Varistors and Transformers**: These are a few simple models that were used in larger assemblies that display my skill in working on smaller parts.
 
-3. **Making Blog Posts**: This is my first blog post! I now have Astro pages and Markdown posts!
+<img src="../src/static/img/s-busbar.png" width="20%">
+<img src="../src/static/img/45-busbar.png" width="22%">
+<img src="../src/static/img/nte1v150.png" width="20%">
+<img src="../src/static/img/transformer.png" width="20%">
 
-## What's next
+## Larger Models
 
-I will finish the Astro tutorial, and then keep adding more posts. Watch this space for more to come.
+**High Voltage Power Stage PCB and Heatsink Assembly**: This is the culmination of my work in this project. It involves multiple smaller assemblies that I put together, as well as models that I made from scratch.
+
+<img src="../src/static/img/hvps_pcb_heatsink_assembly.png" width="50%">

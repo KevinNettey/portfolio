@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import '../static/css/styles.css';
+const pageTitle = "Kevin McDonald Nettey";
 ---
 
 <Layout title="Welcome to Astro.">
@@ -38,7 +39,7 @@ import '../static/css/styles.css';
 			<a href="/">Home</a>
     		<a href="/about/">About</a>
 			<a href="/projects/">Projects</a>
-			<h1>Portfolio of <span class="text-gradient">Kevin Nettey</span></h1>
+			<h1><span class="text-gradient">{pageTitle}</span></h1>
 		</body>
 		<p class="instructions">
 			To get started, open the directory <code>src/pages</code> in your project.<br />
