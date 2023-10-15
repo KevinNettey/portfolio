@@ -39,6 +39,25 @@ body {
     color: navy;
     font-weight: bold;
 }
+.text {
+        grid-area: txt;
+    }
+
+    .img {
+        grid-area: img;
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 65vh;
+        grid-template-areas: "txt img";
+    }
+.box {
+    padding: auto;
+}
+.box1 {
+    padding: 7%;
+}
 .text-gradient {
     background-image: var(--accent-gradient);
     -webkit-background-clip: text;

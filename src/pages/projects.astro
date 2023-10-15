@@ -5,10 +5,12 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 const allProjects = await Astro.glob('../pages/projects/*.md');
 ---
 <BaseLayout pageTitle={pageTitle}>
-  {
-    allProjects.map((project) => 
-    <h2><a href={project.url}>{project.frontmatter.title}</a></h2>
-    <p>{project.frontmatter.description}</p>
-  )}
-  
+  <div class="wrapper">
+    {
+      allProjects.map((project) => 
+      <div class="box"><h2><a href={project.url}>{project.frontmatter.title}</a></h2>
+      <p class="desc">{project.frontmatter.description}</p></div>
+      <div class="box1"><img src={project.frontmatter.img} width="125%"></div>
+    )}
+  </div>
 </BaseLayout>

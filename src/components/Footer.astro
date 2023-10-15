@@ -3,9 +3,11 @@ const platform = "LinkedIn"
 const username = "kevin-nettey"
 ---
 
-<footer>
-    <p>See my entire work history on <a href={`https://www.${platform}.com/in/${username}`}>{platform}</a>!</p>
-</footer>
+<div class="footer-background">
+    <footer>
+        <p>See everything that I have worked on <a href={`https://www.${platform}.com/in/${username}`}>{platform}</a>!</p>
+    </footer>
+</div>
 
 <style>
     a {
@@ -20,5 +22,11 @@ const username = "kevin-nettey"
         margin-top: 2rem;
         bottom: 0;
         position: fixed;
+        background-color: white;
+    }
+    .footer-background {
+        width: 100%;
+        height: 3vh;
+        overflow: hidden;
     }
 </style>
